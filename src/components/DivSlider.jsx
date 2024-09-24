@@ -1,8 +1,9 @@
 import React from 'react';
+import FAQPage from './FAQPage.jsx'; // Import the FAQPage component
 
 const DivSlider = () => {
     return (
-        <div className='bg-black w-full h-full py-[10%]'>
+        <div className='bg-black w-full h-full py-[10%] '>
             <div className='w-[90%] h-[100vh] sticky top-20 rounded-tl-3xl rounded-tr-3xl bg-white mx-auto flex'>
                 {/* Strategy Section */}
                 <div className='w-1/2 bg-blue-50 flex flex-col justify-center items-center text-center p-10 rounded-tl-3xl rounded-bl-3xl'>
@@ -27,7 +28,7 @@ const DivSlider = () => {
                 </div>
             </div>
 
-            {/* Keep the overall div with rounded edges */}
+            {/* Another Section */}
             <div className='w-[90%] h-[100vh] sticky top-20 rounded-tl-3xl rounded-tr-3xl bg-white mx-auto flex'>
                 {/* Strategy Section */}
                 <div className='w-1/2 bg-yellow-50 flex flex-col justify-center items-center text-center p-10 rounded-tl-3xl rounded-bl-3xl'>
@@ -52,6 +53,7 @@ const DivSlider = () => {
                 </div>
             </div>
 
+            {/* Another Section */}
             <div className='w-[90%] h-[100vh] sticky top-20 rounded-tl-3xl rounded-tr-3xl bg-white mx-auto flex'>
                 {/* Strategy Section */}
                 <div className='w-1/2 bg-green-50 flex flex-col justify-center items-center text-center p-10 rounded-tl-3xl rounded-bl-3xl'>
@@ -75,7 +77,11 @@ const DivSlider = () => {
                     </p>
                 </div>
             </div>
-            <div className='w-full h-[100vh] sticky top-20 rounded-tl-3xl rounded-tr-3xl bg-blue-100 mx-auto '></div>
+
+            {/* FAQ Section */}
+            <div className='w-full sticky top-20 rounded-tl-3xl rounded-tr-3xl bg-blue-100 mx-auto '>
+                <FAQPage /> {/* Adding FAQPage component here */}
+            </div>
         </div>
     );
 }

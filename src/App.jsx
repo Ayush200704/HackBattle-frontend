@@ -7,7 +7,7 @@ function App() {
     <>
       <HorizontalScroll />
       <DivSlider />
-      <Footer/>
+      <Footer/> 
     </>
   );
 }

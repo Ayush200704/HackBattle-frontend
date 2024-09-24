@@ -2,7 +2,7 @@ import 'boxicons/css/boxicons.min.css';
 
 export default function Footer() {
 	return (
-		<footer className="w-full flex flex-col p-1 justify-between border-t border-gray-400 bg-black text-white">
+		<footer className="w-full flex flex-col pb-1 justify-between border-t border-gray-400 bg-black text-white">
 			<div className="flex flex-wrap justify-between items-start p-2 pb-3">
 				<div className="ml-2 max-w-[30%] flex flex-col justify-between">
 					<h2 className="text-4xl">Knights Of Kalki</h2>
