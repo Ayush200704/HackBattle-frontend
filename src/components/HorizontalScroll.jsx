@@ -202,15 +202,6 @@ const HorizontalScroll = () => {
           <Page2 />
         </div>
       </section>
-      <section className="inline-block h-full w-screen bg-gray-900 text-white">
-        <div className="flex flex-col items-center justify-center h-full">
-          <h1 className="text-5xl mb-8">Page Three</h1>
-          <p className="w-4/5 text-justify text-lg">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-            iste exercitationem nam autem, aperiam corporis qui necessitatibus.
-          </p>
-        </div>
-      </section>
     </div>
   );
 };
